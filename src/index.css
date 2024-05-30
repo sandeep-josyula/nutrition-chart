@@ -1,3 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+form {
+    font-family: 'MyCustomFont', sans-serif; /* Fallback for browsers without the font */
+  }
