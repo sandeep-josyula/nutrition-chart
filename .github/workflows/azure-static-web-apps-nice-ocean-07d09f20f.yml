@@ -43,4 +43,6 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_NICE_OCEAN_07D09F20F }}
+          app_location: "src" 
           action: "close"
+ 
